@@ -1,0 +1,39 @@
+{
+	"nodes":[
+		{"id":"27c22828195ee1a2","type":"text","text":"Home","x":-204,"y":-60,"width":99,"height":54},
+		{"id":"ace794b6181e5071","type":"text","text":"Fav","x":-400,"y":100,"width":94,"height":50},
+		{"id":"4e673614946a8d7a","type":"text","text":"Photo","x":-290,"y":100,"width":110,"height":50},
+		{"id":"cba189d5232e2986","type":"text","text":"Music","x":0,"y":100,"width":100,"height":50},
+		{"id":"041cf67e3f5ff0db","type":"text","text":"Movie","x":-130,"y":100,"width":110,"height":50},
+		{"id":"a32c6cb0e98a32a0","type":"text","text":"Documentary","x":-154,"y":240,"width":158,"height":50},
+		{"id":"0c1d12ba70b7aab1","type":"text","text":"Sci-Fi","x":-290,"y":240,"width":107,"height":50},
+		{"id":"583a881373611265","type":"text","text":"Family","x":40,"y":240,"width":107,"height":50},
+		{"id":"accd5298c18bd4d5","type":"text","text":"Asia","x":-123,"y":340,"width":96,"height":50},
+		{"id":"ac5ecadcaa05d6a9","type":"text","text":"Africa","x":-256,"y":340,"width":104,"height":50},
+		{"id":"05d243ca5514ee25","type":"text","text":"America","x":4,"y":340,"width":119,"height":50},
+		{"id":"7cb796089433e0d3","type":"text","text":"India.txt","x":-137,"y":420,"width":125,"height":50},
+		{"id":"7bf3d4938e8b0f3a","type":"text","text":"Rock","x":180,"y":190,"width":100,"height":50},
+		{"id":"c47e53d9bd126932","type":"text","text":"/","x":-179,"y":-160,"width":50,"height":50},
+		{"id":"945c5926788f94be","type":"text","text":"cp ../Asia/india.txt ../../../Fav/india.txt","x":-720,"y":340,"width":320,"height":60,"color":"1"},
+		{"id":"d55e339d118e5e16","x":-772,"y":440,"width":425,"height":60,"color":"2","type":"text","text":"echo \"Hello from Canada\" > ../America/Canada.txt"}
+	],
+	"edges":[
+		{"id":"e063a59f2f69a6c2","fromNode":"c47e53d9bd126932","fromSide":"bottom","toNode":"27c22828195ee1a2","toSide":"top"},
+		{"id":"c73c96754f925f82","fromNode":"27c22828195ee1a2","fromSide":"bottom","toNode":"ace794b6181e5071","toSide":"top"},
+		{"id":"ce7837b17a9a8a05","fromNode":"27c22828195ee1a2","fromSide":"bottom","toNode":"4e673614946a8d7a","toSide":"top"},
+		{"id":"7cd2c21a65a39762","fromNode":"27c22828195ee1a2","fromSide":"bottom","toNode":"041cf67e3f5ff0db","toSide":"top"},
+		{"id":"5fc3dcc8d48810e5","fromNode":"27c22828195ee1a2","fromSide":"bottom","toNode":"cba189d5232e2986","toSide":"top"},
+		{"id":"0a2504520fd3c960","fromNode":"041cf67e3f5ff0db","fromSide":"bottom","toNode":"a32c6cb0e98a32a0","toSide":"top"},
+		{"id":"b6113f99e12614a3","fromNode":"041cf67e3f5ff0db","fromSide":"bottom","toNode":"0c1d12ba70b7aab1","toSide":"top"},
+		{"id":"9abcdb3eb05ce17d","fromNode":"041cf67e3f5ff0db","fromSide":"bottom","toNode":"583a881373611265","toSide":"top"},
+		{"id":"793b63dff83d864f","fromNode":"a32c6cb0e98a32a0","fromSide":"bottom","toNode":"accd5298c18bd4d5","toSide":"top"},
+		{"id":"51155806a0a80ada","fromNode":"a32c6cb0e98a32a0","fromSide":"bottom","toNode":"ac5ecadcaa05d6a9","toSide":"top"},
+		{"id":"ff86caff960701c7","fromNode":"a32c6cb0e98a32a0","fromSide":"bottom","toNode":"05d243ca5514ee25","toSide":"top"},
+		{"id":"807d08c97d4bb32c","fromNode":"accd5298c18bd4d5","fromSide":"bottom","toNode":"7cb796089433e0d3","toSide":"top"},
+		{"id":"4bd995f4bae60d83","fromNode":"cba189d5232e2986","fromSide":"bottom","toNode":"7bf3d4938e8b0f3a","toSide":"top"},
+		{"id":"071a81ba0f184676","fromNode":"945c5926788f94be","fromSide":"right","toNode":"7cb796089433e0d3","toSide":"left","color":"1"},
+		{"id":"6f3a3836a4ca359f","fromNode":"945c5926788f94be","fromSide":"top","toNode":"ace794b6181e5071","toSide":"bottom","color":"1"},
+		{"id":"e1143b0030af5fb5","fromNode":"d55e339d118e5e16","fromSide":"right","toNode":"ac5ecadcaa05d6a9","toSide":"bottom","color":"2"},
+		{"id":"fc2288d75c43d0e2","fromNode":"d55e339d118e5e16","fromSide":"right","toNode":"05d243ca5514ee25","toSide":"bottom","color":"2"}
+	]
+}
